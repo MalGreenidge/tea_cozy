@@ -1,0 +1,16 @@
+body {
+    background-color: #000;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+
+/* Menu */
+.menu img {
+    height: 200px;
+    width: 300px;
+}
