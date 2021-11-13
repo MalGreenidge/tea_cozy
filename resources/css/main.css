@@ -12,7 +12,7 @@ body {
     font-size: 22px;
     opacity: 0.9;
     text-align: center;
-    
+    opacity: 0.6;
 }
 
 
@@ -115,34 +115,34 @@ main {
     display: flex;
     justify-content: center;
     padding-top: 15px;
+    
     /* This is where you left off, Sill trying to soze the menu also to make it wrap */
 }
 
-.red {
-    background-color: red;
+
+.tiles {
+    background-color: #000;
     width: 300px;
     height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-right: 40px;
+    
 }
 
-.green {
-    background-color: green;
-    width: 300px;
-    height: 280px;
+/* Contact Styling */
+
+#contact {
+    height: 200px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    margin-right: 40px;
+    justify-content: space-between;
 }
 
-.blue {
-    background-color: blue;
-    width: 300px;
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+/* Footer Styling */
+footer {
+    text-align: left;
+    padding-left: 15px;
 }
